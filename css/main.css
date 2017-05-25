@@ -1,0 +1,86 @@
+body {
+	background-image: url('../images/seven-seas.jpg');
+	font-family: 'Poppins', sans-serif;
+	color: 
+}
+
+body::before {
+	content: "";
+	display: block;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.7);
+}
+
+#wrapper {
+	background-color: #FFFADE;
+	width: 700px;
+	margin: auto;
+	border: 5px solid #999;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+#citySelect {
+	width: 300px;
+	margin: auto;
+	list-style-type: none;
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px solid #555;
+}
+
+ul#citySelect>li {
+	display: inline;
+	padding: 10px;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	background-color: #BA2222;
+}
+
+h1 {
+	text-align: center;
+	font-family: Georgia, serif;
+	background: linear-gradient(to bottom, #a82b2f 0%,#eb1d22 100%);
+	padding: 10px 0px 10px 0px;
+	color: #eee;
+	font-size: 2.0em;
+}
+
+h2 {
+	font-weight: 900;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#weatherIcon {
+	display: inline;
+	vertical-align: middle;
+	padding-right: 3px;
+}
+
+
+
